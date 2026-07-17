@@ -1,17 +1,46 @@
-# study_box
+# TechCatalog
 
-A new Flutter project.
+TechCatalog, API üzerinden teknoloji ürünlerini listeleyen bir Flutter katalog uygulamasıdır.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
+- Ürün listeleme ve arama
+- Ürün detay ekranı
+- Sepete ürün ekleme ve silme
+- Hero geçiş animasyonu
+- Basit ödeme simülasyonu
 
-A few resources to get you started if this is your first Flutter project:
+## Kullanılan Teknolojiler
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- HTTP
+- Shared Preferences
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ekran Görüntüleri
+
+### Giriş Ekranı
+![Giriş Ekranı](screenshots/login.png)
+
+### Ana Sayfa
+![Ana Sayfa](screenshots/home.png)
+
+### Ürün Detayı
+![Ürün Detayı](screenshots/detail.png)
+
+### Sepet
+![Sepet](screenshots/cart.png)
+
+### Boş Sepet
+![Boş Sepet](screenshots/cart_empty.png)
+
+## Sürümler
+
+- Flutter 3.44.6
+- Dart 3.12.2
+
+## Çalıştırma
+
+```bash
+flutter pub get
+flutter run
